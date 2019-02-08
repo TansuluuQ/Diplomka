@@ -1,0 +1,28 @@
+@media screen and (max-width: 750px) {
+	.menu__mobile {
+		display: inline-block;
+	}
+	.nav__item {
+		display: none;
+	}
+	.offer__block {
+		width: 95%;
+	}
+	.weare {
+		flex-wrap: wrap;
+	}
+	.weare__left {
+		width: 100%;
+	}
+	.weare__right {
+		width: 100%;
+	}
+	.contact__item {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 400px) {
+	.contact__item {
+		width: 100%;
+	}
+}

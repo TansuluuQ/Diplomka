@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Diplomka</title>
+	<link rel="stylesheet" href="css/uikit.min.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+	<section class="slider">
+		<div class="container">
+			<div class="menu">
+				<ul class="nav__list">
+					<li class="nav__item__first">
+						<a href="#" class="nav__link__first">Business Name</a>
+					</li>
+					<li class="menu__mobile">
+						<div>
+							<span class="uk-margin-small-right menu__mobile__icon" uk-icon="icon: menu; ratio: 2"></span>
+						</div>
+						<div uk-dropdown>
+							<ul class="uk-nav uk-dropdown-nav">
+								<li class="uk-active"><a href="#">Active</a></li>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Portfolio</a></li>
+								<li><a href="#">Testimonials</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Home</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Services</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">About</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Portfolio</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Testimonials</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push; max-height: 500">
+
+			<ul class="uk-slideshow-items">
+				<li>
+					<div class="slider__photo" uk-cover>
+						<div class="slider__back"></div>
+					</div>
+					<div class="uk-position-center uk-position-small uk-text-center">
+						<h2 uk-slideshow-parallax="x: 100,-100" class="slider__title">Simple,Fresh & Unique Design
+							<span class="slider__text">Donec posuere augue venenatis,</span>
+						</h2>
+						<div class="slider__button">
+							<a href="#" class="slider__button__href">SHOW MORE</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slider__photo" uk-cover>
+						<div class="slider__back"></div>
+					</div>
+					<div class="uk-position-center uk-position-small uk-text-center">
+						<h2 uk-slideshow-parallax="x: 100,-100" class="slider__title">Simple,Fresh & Unique Design
+							<span class="slider__text">Donec posuere augue venenatis,</span>
+						</h2>
+						<div class="slider__button">
+							<a href="#" class="slider__button__href">SHOW MORE</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+			<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+			<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+			<div class="uk-position-bottom-center uk-position-small"><ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="offer">
+		<div class="container">
+			<div class="offer__title">What we offer</div>
+			<span class="offer__text">
+				Vestibulum elementum ex ullamcorper Ligula vulputate
+			</span>
+			<div class="offer__blocks">
+				<div class="offer__block">
+					<div class="offer__block__icon">
+						<i class="fas fa-tools offer__block__icon__a"></i>
+					</div>
+					<div class="offer__block__info">
+						<div class="offer__block__title">
+							Lorem ipsum dolor sit amet.
+						</div>
+						<div class="offer__block__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime temporibus fugit ab tenetur ad minima repellat, soluta reprehenderit corporis voluptatem pariatur
+						</div>
+					</div>
+				</div>
+				<div class="offer__block">
+					<div class="offer__block__icon">
+						<i class="fas fa-shopping-cart offer__block__icon__a"></i>
+					</div>
+					<div class="offer__block__info">
+						<div class="offer__block__title">
+							Lorem ipsum dolor sit amet.
+						</div>
+						<div class="offer__block__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime temporibus fugit ab tenetur ad minima repellat, soluta reprehenderit corporis voluptatem pariatur
+						</div>
+					</div>
+				</div>
+				<div class="offer__block">
+					<div class="offer__block__icon">
+						<i class="fas fa-layer-group offer__block__icon__a"></i>
+					</div>
+					<div class="offer__block__info">
+						<div class="offer__block__title">
+							Lorem ipsum dolor sit amet.
+						</div>
+						<div class="offer__block__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime temporibus fugit ab tenetur ad minima repellat, soluta reprehenderit corporis voluptatem pariatur
+						</div>
+					</div>
+				</div>
+				<div class="offer__block">
+					<div class="offer__block__icon">
+						<i class="fas fa-desktop offer__block__icon__a"></i>
+					</div>
+					<div class="offer__block__info">
+						<div class="offer__block__title">
+							Lorem ipsum dolor sit amet.
+						</div>
+						<div class="offer__block__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime temporibus fugit ab tenetur ad minima repellat, soluta reprehenderit corporis voluptatem pariatur
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="weare">
+		<div class="weare__left"></div>
+		<div class="weare__right">
+			<div class="weare__right__title">
+				Who we are
+			</div>
+			<div class="weare__right__text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, eligendi, ut. Eaque odio error, ipsum deleniti fuga illo voluptatum quod.
+				elit. Rem, eligendi, ut. Eaque odio error, ipsum deleniti fuga illo voluptatum quod.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, eligendi, ut. Eaque odio error, ipsum deleniti fuga illo voluptatum quod.
+				elit. Rem, eligendi, ut. Eaque odio error, ipsum deleniti fuga illo voluptatum quod.
+				Rem, eligendi, ut. Eaque odio e
+			</div>
+			<div class="weare__right__text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, veritatis, sequi. Soluta quo quas fugit repudiandae iusto fuga, dolorem cum!
+				Rem, eligendi, ut. Eaque odio e Rem, eligendi, ut. Eaque odio e
+			</div>
+			<div class="weare__right__button">
+				<a href="#" class="weare__right__button__a">
+					READ MORE
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="work">
+		<div class="work__title">See our work</div>
+		<div class="work__line">
+			<hr class="uk-divider-small work__line__hr">
+			<i class="fas fa-cog work__line__icon"></i>
+			<hr class="uk-divider-small work__line__hr">
+		</div>
+		<div class="work__text">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique et quis tenetur, harum voluptates, omnis ducimus. Inventore quisquam, sit necessitatibus.
+		</div>
+		<div class="work__slider">
+			<div uk-filter="target: .js-filter">
+
+				<ul class="uk-subnav uk-subnav-pill work__slider__menu__center">
+					<li class="uk-active" uk-filter-control><a href="#">All</a></li>
+					<li uk-filter-control="[data-work='Web']"><a href="#">Web</a></li>
+					<li uk-filter-control="[data-work='Logo']"><a href="#">Logo Design</a></li>
+					<li uk-filter-control="[data-work='Wordpress']"><a href="#">Wordpress</a></li>
+					<li uk-filter-control="[data-work='commerce']"><a href="#">E-commerce</a></li>
+				</ul>
+
+				<ul class="js-filter work__slider__list">
+					<li data-work="Web">
+						<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+							<div class="work__slider__item" style="background-image: url(img/Layer21.jpg)"></div>
+							<div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle work__slider__back">
+								<p class="uk-h4 uk-margin-remove">
+									<i class="fas fa-eye work__slider__item__icon"></i><br>
+									<span class="work__slider__item__title">Lorem ipsum dolor sit</span><br>
+									<span class="work__slider__item__text">Wordpress</span>
+								</p>
+							</div>
+						</div>
+					</li>
+					<li data-work="Logo">
+						<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+							<div class="work__slider__item" style="background-image: url(img/Layer25.jpg)"></div>
+							<div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle work__slider__back">
+								<p class="uk-h4 uk-margin-remove">
+									<i class="fas fa-eye work__slider__item__icon"></i><br><br>
+									<span class="work__slider__item__title">Lorem ipsum dolor sit</span><br>
+									<span class="work__slider__item__text">Wordpress</span>
+								</p>
+							</div>
+						</div>
+					</li>
+					<li data-work="Web">
+						<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+							<div class="work__slider__item" style="background-image: url(img/Layer30.jpg)"></div>
+							<div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle work__slider__back">
+								<p class="uk-h4 uk-margin-remove">
+									<i class="fas fa-eye work__slider__item__icon"></i><br><br>
+									<span class="work__slider__item__title">Lorem ipsum dolor sit</span><br>
+									<span class="work__slider__item__text">Wordpress</span>
+								</p>
+							</div>
+						</div>
+					</li>
+					<li data-work="Logo">
+						<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+							<div class="work__slider__item" style="background-image: url(img/Layer22.jpg)"></div>
+							<div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle work__slider__back">
+								<p class="uk-h4 uk-margin-remove">
+									<i class="fas fa-eye work__slider__item__icon"></i><br><br>
+									<span class="work__slider__item__title">Lorem ipsum dolor sit</span><br>
+									<span class="work__slider__item__text">Wordpress</span>
+								</p>
+							</div>
+						</div>
+					</li>
+					<li data-work="Wordpress">
+						<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+							<div class="work__slider__item" style="background-image: url(img/Layer23.jpg)"></div>
+							<div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle work__slider__back">
+								<p class="uk-h4 uk-margin-remove">
+									<i class="fas fa-eye work__slider__item__icon"></i><br><br>
+									<span class="work__slider__item__title">Lorem ipsum dolor sit</span><br>
+									<span class="work__slider__item__text">Wordpress</span>
+								</p>
+							</div>
+						</div>
+					</li>
+					<li data-work="Wordpress">
+						<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+							<div class="work__slider__item" style="background-image: url(img/Layer26.jpg)"></div>
+							<div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle work__slider__back">
+								<p class="uk-h4 uk-margin-remove">
+									<i class="fas fa-eye work__slider__item__icon"></i><br><br>
+									<span class="work__slider__item__title">Lorem ipsum dolor sit</span><br>
+									<span class="work__slider__item__text">Wordpress</span>
+								</p>
+							</div>
+						</div>
+					</li>
+					<li data-work="commerce">
+						<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+							<div class="work__slider__item" style="background-image: url(img/Layer24.jpg)"></div>
+							<div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle work__slider__back">
+								<p class="uk-h4 uk-margin-remove">
+									<i class="fas fa-eye work__slider__item__icon"></i><br><br>
+									<span class="work__slider__item__title">Lorem ipsum dolor sit</span><br>
+									<span class="work__slider__item__text">Wordpress</span>
+								</p>
+							</div>
+						</div>
+					</li>
+					<li data-work="commerce">
+						<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+							<div class="work__slider__item" style="background-image: url(img/Layer20.jpg)"></div>
+							<div class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle work__slider__back">
+								<p class="uk-h4 uk-margin-remove">
+									<i class="fas fa-eye work__slider__item__icon"></i><br><br>
+									<span class="work__slider__item__title">Lorem ipsum dolor sit</span><br>
+									<span class="work__slider__item__text">Wordpress</span>
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="testimonials">
+		<div class="work__title">Testimonials</div>
+		<div class="work__line">
+			<hr class="uk-divider-small work__line__hr">
+			<i class="fas fa-comments work__line__icon uk-icon"></i>
+			<hr class="uk-divider-small work__line__hr">
+		</div>
+		<div class="testimonials__slider">
+			<div uk-slider>
+				<ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-1@s uk-child-width-1-2@m uk-light uk-grid-large">
+					<li>
+						<div class="triangle-isosceles">
+							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consec tetur, adipisci velit, sed quia non numquam eius modi tempora incidunt utis labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minimas veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid amet untras vel illum qui.”</p>
+						</div>
+						<div class="testimonials__slider__footer">
+							<i class="fas fa-user"></i>
+							<span class="testimonials__slider__footer__name">Jon Doe,</span>
+							<span class="testimonials__slider__footer__company">Conpany Inc</span>
+						</div>
+					</li>
+					<li>
+						<div class="triangle-isosceles">
+							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consec tetur, adipisci velit, sed quia non numquam eius modi tempora incidunt utis labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minimas veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid amet untras vel illum qui.”</p>
+						</div>
+						<div class="testimonials__slider__footer">
+							<i class="fas fa-user"></i>
+							<span class="testimonials__slider__footer__name">Jon Doe,</span>
+							<span class="testimonials__slider__footer__company">Conpany Inc</span>
+						</div>
+					</li>
+					<li>
+						<div class="triangle-isosceles">
+							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consec tetur, adipisci velit, sed quia non numquam eius modi tempora incidunt utis labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minimas veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid amet untras vel illum qui.”</p>
+						</div>
+						<div class="testimonials__slider__footer">
+							<i class="fas fa-user"></i>
+							<span class="testimonials__slider__footer__name">Jon Doe,</span>
+							<span class="testimonials__slider__footer__company">Conpany Inc</span>
+						</div>
+					</li>
+					<li>
+						<div class="triangle-isosceles">
+							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consec tetur, adipisci velit, sed quia non numquam eius modi tempora incidunt utis labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minimas veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid amet untras vel illum qui.”</p>
+						</div>
+						<div class="testimonials__slider__footer">
+							<i class="fas fa-user"></i>
+							<span class="testimonials__slider__footer__name">Jon Doe,</span>
+							<span class="testimonials__slider__footer__company">Conpany Inc</span>
+						</div>
+					</li>
+				</ul>
+
+				<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="contact">
+		<div class="container">
+			<ul class="contact__list">
+				<li class="contact__item">
+					<div class="contact__item__title contact__item__title__other">
+						Business Name
+					</div>
+					<div class="contact__item__text">
+						Donec vitae cursus quam. Etiam dignissim, nulla a congue auctor, massa urna cursus enim, id sodales elit ligula quis diam. Morbi ut semper augue. Fusce sit amet lectus turpis. Integer a cursus tellus, et imperdiet purus. Donec sed orci placerat, vulputate risus id, faucibus massa. Mauris justo arcu, faucibus at nunc quis
+					</div>
+				</li>
+				<li class="contact__item">
+					<div class="contact__item__title">
+						Contact 
+					</div>
+					<div class="contact__item__text">
+						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in so
+					</div>
+					<div class="contact__item__numbers">
+						<div>
+							<div class="contact__item__numbers__color">
+								<div class="icon__margin">
+									<i class="fas fa-map-marker-alt contact__item__numbers__icon"></i>
+								</div>
+								<div>hyderabadh</div>
+							</div>
+							<div class="contact__item__numbers__color">
+								<div class="icon__margin">
+									<i class="fas fa-envelope contact__item__numbers__icon"></i>
+								</div>
+								<div>info@company.com</div>
+							</div>
+							<div class="contact__item__numbers__color">
+								<div class="icon__margin">
+									<i class="fas fa-phone contact__item__numbers__icon"></i>
+								</div>
+								<div>123 456 7890</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="contact__item">
+					<div class="contact__item__title">
+						Latest Tweets
+					</div>
+					<div class="contact__item__other__icons">
+						<div>
+							<i class="fab fa-twitter contact__item__numbers__icon_tw"></i>
+						</div>
+						<div class="contact__item__text">	
+							Curabitur felis nibh, lacinia non rhoncus vel, lobortis et lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse 
+							<span class="contact__item__text__color__other">5 Hours  Ago</span>
+						</div>
+					</div>
+					<div class="contact__item__other__icons">
+						<div>
+							<i class="fab fa-twitter contact__item__numbers__icon_tw"></i>
+						</div>
+						<div class="contact__item__text">	
+							Curabitur felis nibh, lacinia non rhoncus vel, lobortis et lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+							<span class="contact__item__text__color__other">6 Hours Ago</span>
+						</div>
+					</div>
+				</li>
+				<li class="contact__item">
+					<div class="contact__item__title">
+						News Letter
+					</div>
+					<div class="contact__item__text">
+						Type your email address below and recive our daily news letter for free
+					</div>
+					<div class="contact__footer__form">
+						<input type="text" class="contact__footer__input" placeholder="Email Addres">
+						<a href="#" class="contact__footer__button">Submit</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="footer">
+		<div class="container footer__flex">
+			<div>
+				© 2015 Business name.All rights reserved.
+			</div>
+			<div>
+				Designed by Colorpixels.net
+			</div>
+			<div>
+				<div class="footer__icon">
+					<a href="#" class="footer__icon__padding"><i class="fab fa-twitter"></i></a>
+				</div>
+				<div class="footer__icon">
+					<a href="#" class="footer__icon__padding"><i class="fab fa-facebook-f"></i></a>
+				</div>
+				<div class="footer__icon">
+					<a href="#" class="footer__icon__padding"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/uikit.min.js"></script>
+	<script src="js/uikit-icons.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
